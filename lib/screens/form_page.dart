@@ -1,7 +1,7 @@
 //import 'package:flutter_web/material.dart';
 import 'package:flutter/material.dart';
-import 'constants.dart';
-import 'user.dart';
+import '../constants.dart';
+import '../components/user.dart';
 //import 'package:website/utils/color_constants.dart';
 
 class FormMaterial extends StatefulWidget {

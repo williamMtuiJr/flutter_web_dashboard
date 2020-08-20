@@ -1,11 +1,11 @@
 import 'package:flutter/material.dart';
 import 'package:nile_nini_web/constants.dart';
-import 'package:nile_nini_web/home_page.dart';
-import 'login_page.dart';
-import 'home_page.dart';
-import 'feeds_page.dart';
-import 'settings_page.dart';
-import 'login_screen.dart';
+import 'screens/home_page.dart';
+import 'screens/feeds_page.dart';
+import 'screens/settings_page.dart';
+import 'screens/login_screen.dart';
+//import 'package:build_web_compilers/build_web_compilers.dart';
+//import 'package:build_runner/build_runner.dart';
 
 void main() {
   runApp(MyApp());
@@ -33,8 +33,7 @@ class MyApp extends StatelessWidget {
       ),
       initialRoute: '/',
       routes: {
-        '/': (context) => LoginPage(),
-        LoginPage.id: (context) => LoginPage(),
+        '/': (context) => Login(),
         HomePage.id: (context) => HomePage(),
         FeedsPage.id: (context) => FeedsPage(),
         SettingsPage.id: (context) => SettingsPage(),

@@ -18,6 +18,38 @@
   <link rel="manifest" href="manifest.json">
 </head>
 <body>
+
+
+<!-- The core Firebase JS SDK is always required and must be listed first -->
+<script src="https://www.gstatic.com/firebasejs/7.18.0/firebase-app.js"></script>
+<script src="https://www.gstatic.com/firebasejs/7.14.4/firebase-app.js"></script>
+
+<!-- TODO: Add SDKs for Firebase products that you want to use
+     https://firebase.google.com/docs/web/setup#available-libraries -->
+<script src="https://www.gstatic.com/firebasejs/7.18.0/firebase-analytics.js"></script>
+<script src="https://www.gstatic.com/firebasejs/7.18.0/firebase-auth.js"></script>
+<script src="https://www.gstatic.com/firebasejs/7.18.0/firebase-firestore.js"></script>
+<script src="https://www.gstatic.com/firebasejs/7.18.0/firebase-storage.js"></script>
+
+
+
+<script>
+  // Your web app's Firebase configuration
+  var firebaseConfig = {
+    apiKey: "AIzaSyBwBt_M-FgBfyb8CPzeFDpLyFSzTwfUk1s",
+    authDomain: "mobile-health-app-nn.firebaseapp.com",
+    databaseURL: "https://mobile-health-app-nn.firebaseio.com",
+    projectId: "mobile-health-app-nn",
+    storageBucket: "mobile-health-app-nn.appspot.com",
+    messagingSenderId: "782966384152",
+    appId: "1:782966384152:web:58c0ceaabaf476ae0f456d",
+    measurementId: "G-SL8TD4SE17"
+  };
+  // Initialize Firebase
+  firebase.initializeApp(firebaseConfig);
+  firebase.analytics();
+</script>
+
   <!-- This script installs service_worker.js to provide PWA functionality to
        application. For more information, see:
        https://developers.google.com/web/fundamentals/primers/service-workers -->

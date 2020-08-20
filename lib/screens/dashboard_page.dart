@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 //import 'package:fl_chart/fl_chart.dart';
-import 'package:nile_nini_web/pie_chart.dart';
-import 'bar_chart.dart';
+import 'file:///C:/Users/William%20Junior/Documents/flutter_web_dashboard/lib/components/pie_chart.dart';
+import '../components/bar_chart.dart';
 
 class Dashboard extends StatefulWidget {
   @override
