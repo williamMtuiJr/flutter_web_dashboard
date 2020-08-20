@@ -8,6 +8,7 @@ import 'settings_page.dart';
 import 'my_home_page.dart';
 import 'contact_section.dart';
 import 'welcome_page.dart';
+import 'admin_dashboard.dart';
 
 class HomePage extends StatefulWidget {
   static String id = '/home_page';
@@ -147,7 +148,8 @@ class _HomePageState extends State<HomePage>
               children: [
                 HomeView(),
                 MyHomePage(),
-                Dashboard(),
+                AdminDashboardPage(),
+//                Dashboard(),
 //                FormMaterial(),
                 FeedsPage(),
                 ContactSection(),

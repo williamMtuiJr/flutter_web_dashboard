@@ -370,7 +370,7 @@ class LineChartSample1State extends State<LineChartSample1> {
                   height: 37,
                 ),
                 const Text(
-                  'Unfold Shop 2018',
+                  'Sessions',
                   style: TextStyle(
                     color: Color(0xff827daa),
                     fontSize: 16,
@@ -381,7 +381,7 @@ class LineChartSample1State extends State<LineChartSample1> {
                   height: 4,
                 ),
                 const Text(
-                  'Monthly Sales',
+                  'Monthly Users',
                   style: TextStyle(
                       color: Colors.white,
                       fontSize: 32,
@@ -448,11 +448,11 @@ class LineChartSample1State extends State<LineChartSample1> {
           getTitles: (value) {
             switch (value.toInt()) {
               case 2:
-                return 'SEPT';
+                return 'JUNE';
               case 7:
-                return 'OCT';
+                return 'JULY';
               case 12:
-                return 'DEC';
+                return 'AUG';
             }
             return '';
           },
@@ -467,9 +467,9 @@ class LineChartSample1State extends State<LineChartSample1> {
           getTitles: (value) {
             switch (value.toInt()) {
               case 1:
-                return '1m';
+                return '6';
               case 2:
-                return '2m';
+                return '4';
               case 3:
                 return '3m';
               case 4:

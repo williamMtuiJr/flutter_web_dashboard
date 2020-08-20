@@ -82,7 +82,8 @@ class DetailsWidget extends StatelessWidget {
             height: 30,
           ),
           Text(
-            'In this course we will go over the basics of using Flutter Web for website development. Topics will include Responsive Layout, Deploying, Font Changes, Hover Functionality, Modals and more.',
+            //'In this course we will go over the basics of using Flutter Web for website development. Topics will include Responsive Layout, Deploying, Font Changes, Hover Functionality, Modals and more.',
+            'A web platform for different content creators to create content to be posted on the mobile health app, Nile Nini as well as analyse the performance of each of the posts',
             style: TextStyle(
               fontSize: 21,
               height: 1.7,
